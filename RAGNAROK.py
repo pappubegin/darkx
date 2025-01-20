@@ -249,7 +249,7 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} "
         else:
-            response = "Usage :- /attack1 <target> <port> <time>\nBy https://t.me/RAGNAROKCRACKER"  # Updated command syntax
+            response = "Usage :- /attack1 <target> <port> <time> "  # Updated command syntax
     else:
         response = "You Are Not User's To Authorized To Use This Command.\nBy STORM BOT DM TO GET ACCESS @serverumesh"
 
@@ -350,7 +350,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-By https://t.me/RAGNAROKCRACKER
+By https://t.me/serverumesh
 '''
     bot.reply_to(message, response)
 
